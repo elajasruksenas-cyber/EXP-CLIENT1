@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "expclient",
+  "version": "${version}",
+  "name": "Exp Client",
+  "description": "Client-side utility client. RShift opens the ClickGUI.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.exp.client.ExpClient"] },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
